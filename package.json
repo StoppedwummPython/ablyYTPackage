@@ -1,0 +1,26 @@
+{
+  "name": "ably-yt-urlgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoppedwummPython/ablyYTPackage.git"
+  },
+  "keywords": [
+    "ably",
+    "youtube",
+    "video",
+    "collab"
+  ],
+  "author": "StoppedwummPython",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StoppedwummPython/ablyYTPackage/issues"
+  },
+  "homepage": "https://github.com/StoppedwummPython/ablyYTPackage#readme",
+  "type": "module"
+}
