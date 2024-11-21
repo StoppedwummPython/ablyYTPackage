@@ -1,0 +1,23 @@
+name: "Test package"
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            # Checkout the repository
+            - name: Checkout repository
+              uses: actions/checkout@v2
+            
+            - uses: actions/setup-node@v4
+              with:
+                node-version: 18
+
+            # Run test
+            - name: Test
+              run: npm test
